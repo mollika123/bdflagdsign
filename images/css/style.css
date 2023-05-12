@@ -1,0 +1,51 @@
+*{
+	padding: 0px;
+margin: 0px;}
+body{font-family: sans-serif;
+	font-size: 14px;
+height: 1800px;
+}
+.green{
+	width: 700px;
+	height: 400px;
+	position: relative;
+background: green;
+}.red{
+	width: 120px;
+	height: 120px;
+	border-radius: 100%;
+position:absolute;
+background: red;top:25%;
+left: 20%;}.fb{
+
+	width: 150px;
+	top: 40%;
+	right: 0%;
+	position: fixed;
+}.fb:hover{
+	right: 5px;
+	cursor: pointer;
+}
+.social-icons{
+	width: 100%;
+	text-align: center;
+	display: block;
+	padding: 100px 300px 0px;
+}
+.social-icons li{
+	display: inline-block;
+	list-style: none;
+}
+.social-icons li a{
+	display: block;
+	width: 90px;
+	height:90px ;
+	line-height: 90px;
+	background-color: darkred;
+    color: white;
+    font-size: 40px;
+    margin:0px 15px ;border-radius: 100%;}
+    .social-icons li a:hover{
+    	background-color: black;
+    	color: white;transition: 1s;
+    }
